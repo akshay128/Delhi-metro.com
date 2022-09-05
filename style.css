@@ -1,0 +1,58 @@
+.color_on{
+    text-align:center;
+    background-color: rgb(238, 78, 73);
+    color: white;
+    font-size: x-large;
+}
+.color_on{
+  width: 100%;
+}
+.color_on td{
+   border: 0px solid white;
+
+}
+
+#one{
+width: 100%; 
+text-align: center;
+  background-color: antiquewhite;
+  color: black;
+  white-space: nowrap;
+
+}
+#one td{
+  border: 2px solid white;
+}
+#by_Day {
+    text-align: left;
+    font-size: 16px;
+}
+.doint{
+  padding: 30px;
+  background-color: black;
+  color: white;
+  
+}
+*{
+  padding: 0;
+  margin: 0;
+
+}
+
+.od{
+  display: inline-block;
+}
+#on_1{ 
+  position:absolute;
+  right: 60px;
+}
+
+
+
+@media only screen and (max-width:425px) {
+ .doint{
+  font-size: small;
+  width: 100pc;
+  overflow: hidden;
+ } 
+}
